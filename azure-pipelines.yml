@@ -28,5 +28,5 @@ steps:
 - script: ./vendor/bin/phpcs
   displayName: 'Run phpcs'
 
-- script: .vendor/bin/phpstan anaylse
+- script: vendor/bin/phpstan analyse
   displayName: 'Run phpstan'
