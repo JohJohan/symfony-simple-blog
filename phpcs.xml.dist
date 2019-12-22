@@ -17,5 +17,8 @@
     <file>src/</file>
     <file>tests/</file>
 
-    <exclude name="Generic.Files.LineLength"/>
+    # Custom rules
+    <rule ref="Zend">
+        <exclude name="Generic.Files.LineLength"/>
+    </rule>
 </ruleset>
