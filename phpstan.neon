@@ -1,0 +1,8 @@
+includes:
+    - vendor/phpstan/phpstan-symfony/extension.neon
+parameters:
+    level: 8
+    paths:
+      - src/
+    symfony:
+        container_xml_path: '%rootDir%/../../../var/cache/dev/App_KernelDevDebugContainer.xml'
