@@ -125,11 +125,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/web-link" />
       <path value="$PROJECT_DIR$/vendor/symfony/doctrine-bridge" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/phpcpd" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/finder-facade" />
-      <path value="$PROJECT_DIR$/vendor/theseer/fdomdocument" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
