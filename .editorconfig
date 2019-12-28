@@ -7,5 +7,5 @@ end_of_line = LF
 indent_style = space
 indent_size = 4
 
-[{*.twig,*.yml,*.yaml, js,.neon}]
+[*.{twig,yml,yaml,js,neon}]
 indent_size = 2

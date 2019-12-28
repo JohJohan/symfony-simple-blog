@@ -1,4 +1,6 @@
 {
+    "name": "Symfony simple blog",
+    "description": "A simple blog build with Symfony 5",
     "type": "project",
     "license": "proprietary",
     "require": {
@@ -27,6 +29,7 @@
         "symfony/twig-pack": "*",
         "symfony/validator": "5.0.*",
         "symfony/web-link": "5.0.*",
+        "symfony/webpack-encore-bundle": "^1.7",
         "symfony/yaml": "5.0.*"
     },
     "require-dev": {
@@ -77,7 +80,8 @@
         ],
         "test": [
             ".\\\\vendor\\\\bin\\\\phpcs.bat",
-            ".\\\\vendor\\\\bin\\\\phpstan.bat analyse"
+            ".\\\\vendor\\\\bin\\\\phpstan.bat analyse",
+            ".\\\\node_modules\\\\.bin\\\\eslint assets"
         ]
     },
     "conflict": {

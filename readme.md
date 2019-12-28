@@ -8,8 +8,10 @@ Checkers:
 - phpcs ```vendor/bin/phpcs```
 - phpstan ```vendor/bin/phpstan analyse```
 
-TODO:
 
+- eslint ```./node_modules/.bin/eslint assets```
+
+TODO:
 Implement https://github.com/sebastianbergmann/phpcpd
 
 Fixer:
