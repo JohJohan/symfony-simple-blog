@@ -26,6 +26,9 @@ steps:
 - script: composer install --no-interaction --prefer-dist
   displayName: 'composer install'
 
+- script: composer validate --strict
+  displayName: 'Check composer.json and composer.lock'
+
 - script: ./vendor/bin/phpcs
   displayName: 'Run phpcs'
 
