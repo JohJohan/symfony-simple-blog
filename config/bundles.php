@@ -2,6 +2,12 @@
 
 declare(strict_types=1);
 
+/*
+ * @link    https://github.com/JohJohan/symfony-simple-blog
+ *
+ * @license None
+ */
+
 return [
     Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],
     Symfony\Bundle\TwigBundle\TwigBundle::class => ['all' => true],

@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * @link    https://github.com/JohJohan/symfony-simple-blog
+ *
+ * @license None
+ */
+
 use App\Kernel;
 use Symfony\Component\ErrorHandler\Debug;
 use Symfony\Component\HttpFoundation\Request;

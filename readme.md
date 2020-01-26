@@ -15,4 +15,6 @@ TODO:
 Implement https://github.com/sebastianbergmann/phpcpd
 
 Fixer:
-- php-cs-fixer ```vendor/bin/php-cs-fixer fix```
+- phpcbf ```vendor/bin/phpcbf```
+
+- php-cs-fixer ```vendor/bin/php-cs-fixer fix --allow-risky=yes```

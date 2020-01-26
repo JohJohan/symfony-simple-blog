@@ -86,6 +86,10 @@
             ".\\\\vendor\\\\bin\\\\phpcs.bat",
             ".\\\\vendor\\\\bin\\\\phpstan.bat analyse",
             ".\\\\node_modules\\\\.bin\\\\eslint assets"
+        ],
+        "fix": [
+            ".\\\\vendor\\\\bin\\\\phpcbf.bat",
+            ".\\\\vendor\\\\bin\\\\php-cs-fixer fix --allow-risky=yes"
         ]
     },
     "conflict": {
