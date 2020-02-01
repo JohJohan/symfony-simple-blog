@@ -3,9 +3,15 @@ root = true
 
 ; Unix-style newlines
 [*]
-end_of_line = LF
+end_of_line = lf
 indent_style = space
 indent_size = 4
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
 
-[*.{twig,yml,yaml,js,neon}]
+[*.{yml, yaml, twig, css, scss, js, sls, neon}]
 indent_size = 2
+
+[*.md]
+trim_trailing_whitespace = false
