@@ -85,6 +85,7 @@
             "composer validate --strict",
             ".\\\\vendor\\\\bin\\\\phpcs.bat",
             ".\\\\vendor\\\\bin\\\\phpstan.bat analyse",
+            " php bin/console lint:twig templates/",
             ".\\\\node_modules\\\\.bin\\\\eslint assets"
         ],
         "fix": [
