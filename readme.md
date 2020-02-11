@@ -3,10 +3,11 @@
 # Start:
 Run ````symfony server:start```` 
 
-# tools:
+# Tools:
 Checkers:
 - phpcs ```vendor/bin/phpcs```
 - phpstan ```vendor/bin/phpstan analyse```
+- twig lint ```php bin/console lint:twig templates/```
 
 
 - eslint ```./node_modules/.bin/eslint assets```

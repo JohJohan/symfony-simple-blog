@@ -35,8 +35,11 @@ steps:
 - script: vendor/bin/phpstan analyse
   displayName: 'Run phpstan'
 
+- script: php bin/console lint:twig templates/
+  displayName: 'Run twig lint'
 
-# Asset test
+
+  # Asset test
 - script: yarn install
   displayName: 'Install assets'
 
