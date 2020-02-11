@@ -5,6 +5,7 @@ Run ````symfony server:start````
 
 # Tools:
 Checkers:
+- composer ```composer validate --strict```
 - phpcs ```vendor/bin/phpcs```
 - phpstan ```vendor/bin/phpstan analyse```
 - twig lint ```php bin/console lint:twig templates/```
@@ -17,5 +18,4 @@ Implement https://github.com/sebastianbergmann/phpcpd
 
 Fixer:
 - phpcbf ```vendor/bin/phpcbf```
-
 - php-cs-fixer ```vendor/bin/php-cs-fixer fix --allow-risky=yes```
