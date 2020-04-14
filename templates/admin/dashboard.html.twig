@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{% block title %}Welcome!{% endblock %}</title>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="{{ asset('build/admin/app.css') }}">
+  {% block stylesheets %}{% endblock %}
+</head>
+<body>
+
+{% include 'admin/includes/menu.html.twig' with {} only %}
+
+{% block baseBody %}{% endblock %}
+
+<script src="{{ asset('build/admin/app.js') }}"></script>
+{% block javascripts %}{% endblock %}
+</body>
+</html>

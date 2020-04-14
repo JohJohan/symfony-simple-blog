@@ -28,8 +28,11 @@ class BlogController extends AbstractController
     {
         return $this->render('blog/list.html.twig');
     }
+
     /**
      * @Route("/blog/{slug}", name="blog.view")
+     *
+     * @param string $slug
      *
      * @return Response
      */
