@@ -6,18 +6,16 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  {{ encore_entry_link_tags('app') }}
+  {{ encore_entry_link_tags('admin/app') }}
   {% block stylesheets %}{% endblock %}
 </head>
 <body>
 
-{% include 'includes/menu.html.twig' with {} only %}
+{% include 'admin/includes/menu.html.twig' with {} only %}
 
 {% block baseBody %}{% endblock %}
 
-{% include 'includes/footer.html.twig' with {} only %}
-
-{{ encore_entry_script_tags('app') }}
+{{ encore_entry_script_tags('admin/app') }}
 {% block javascripts %}{% endblock %}
 </body>
 </html>

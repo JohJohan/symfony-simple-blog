@@ -16,7 +16,7 @@ webpack_encore:
     # if you have multiple builds:
     # builds:
     # pass "frontend" as the 3rg arg to the Twig functions
-    # {{ encore_entry_script_tags('entry1', null, 'frontend') }}
+  # {{ encore_entry_script_tags('entry1', null, 'frontend') }}
 
   # frontend: '%kernel.project_dir%/public/frontend/build'
 
