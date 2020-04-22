@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="{{ asset('build/admin/app.css') }}">
+  {{ encore_entry_link_tags('admin/app') }}
   {% block stylesheets %}{% endblock %}
 </head>
 <body>
@@ -15,7 +15,7 @@
 
 {% block baseBody %}{% endblock %}
 
-<script src="{{ asset('build/admin/app.js') }}"></script>
+{{ encore_entry_script_tags('admin/app') }}
 {% block javascripts %}{% endblock %}
 </body>
 </html>

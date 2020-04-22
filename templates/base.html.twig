@@ -6,7 +6,7 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <link rel="stylesheet" href="{{ asset('build/app.css') }}">
+  {{ encore_entry_link_tags('app') }}
   {% block stylesheets %}{% endblock %}
 </head>
 <body>
@@ -17,7 +17,7 @@
 
 {% include 'includes/footer.html.twig' with {} only %}
 
-<script src="{{ asset('build/app.js') }}"></script>
+{{ encore_entry_script_tags('app') }}
 {% block javascripts %}{% endblock %}
 </body>
 </html>
