@@ -13,7 +13,8 @@
     <!-- Use Symfony2 Coding Standard -->
     <rule ref="vendor/escapestudios/symfony2-coding-standard/Symfony" />
 
-    <file>bin/</file>
+    <file>bin/console</file>
+    <file>bin/phpunit</file>
     <file>config/</file>
     <file>public/</file>
     <file>src/</file>

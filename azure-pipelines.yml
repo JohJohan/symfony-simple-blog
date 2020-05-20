@@ -45,3 +45,6 @@ steps:
 
 - script: ./node_modules/.bin/eslint assets
   displayName: 'Run eslint'
+
+- script: npx stylelint "assets/**/*.scss"
+  displayName: 'Run stylelint'

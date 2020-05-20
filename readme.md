@@ -4,14 +4,20 @@
 Run ````symfony server:start```` 
 
 # Tools:
-Checkers:
+Checkers 
+
+You can run ```composer test``` to run all tests:
+
+Code checkers (can be run with ```composer test-code```):
 - composer ```composer validate --strict```
 - phpcs ```vendor/bin/phpcs```
 - phpstan ```vendor/bin/phpstan analyse```
 - twig lint ```php bin/console lint:twig templates/```
 
 
+Asset checkers (can be run with ```composer test-asset```):
 - eslint ```./node_modules/.bin/eslint assets```
+- styleling ```npx stylelint "assets/**/*.scss"```
 
 TODO:
 Implement https://github.com/sebastianbergmann/phpcpd
