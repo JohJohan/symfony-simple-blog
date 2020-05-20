@@ -83,11 +83,18 @@
             "@auto-scripts"
         ],
         "test": [
+            "composer test-code",
+            "composer test-asset"
+        ],
+        "test-code": [
             "composer validate --strict",
             ".\\\\vendor\\\\bin\\\\phpcs.bat",
             ".\\\\vendor\\\\bin\\\\phpstan.bat analyse",
-            "php bin/console lint:twig templates/",
-            ".\\\\node_modules\\\\.bin\\\\eslint assets"
+            "php bin/console lint:twig templates/"
+        ],
+        "test-asset": [
+            ".\\\\node_modules\\\\.bin\\\\eslint assets",
+            "npx stylelint \"assets/**/*.scss\""
         ],
         "fix": [
             ".\\\\vendor\\\\bin\\\\php-cs-fixer fix --allow-risky=yes",
