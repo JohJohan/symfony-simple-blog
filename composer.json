@@ -36,6 +36,7 @@
         "escapestudios/symfony2-coding-standard": "^3.10",
         "friendsofphp/php-cs-fixer": "^2.16",
         "phpstan/phpstan-symfony": "^0.12.1",
+        "sebastian/phpcpd": "^5.0",
         "squizlabs/php_codesniffer": "^3.5",
         "symfony/debug-pack": "^1.0.7",
         "symfony/maker-bundle": "^1.0",
@@ -90,6 +91,7 @@
             "composer validate --strict",
             ".\\\\vendor\\\\bin\\\\phpcs.bat",
             ".\\\\vendor\\\\bin\\\\phpstan.bat analyse",
+            ".\\\\vendor\\\\bin\\\\phpcpd.bat --fuzzy --min-lines=5 --min-tokens=70 src/",
             "php bin/console lint:twig templates/"
         ],
         "test-asset": [

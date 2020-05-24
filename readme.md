@@ -12,15 +12,13 @@ Code checkers (can be run with ```composer test-code```):
 - composer ```composer validate --strict```
 - phpcs ```vendor/bin/phpcs```
 - phpstan ```vendor/bin/phpstan analyse```
+- phpcbf ```vendor/bin/phpcpd.bat --fuzzy --min-lines=5 --min-tokens=70 src/```
 - twig lint ```php bin/console lint:twig templates/```
 
 
 Asset checkers (can be run with ```composer test-asset```):
 - eslint ```./node_modules/.bin/eslint assets```
 - styleling ```npx stylelint "assets/**/*.scss"```
-
-TODO:
-Implement https://github.com/sebastianbergmann/phpcpd
 
 Fixer:
 - phpcbf ```vendor/bin/phpcbf```

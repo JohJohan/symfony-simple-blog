@@ -135,6 +135,9 @@
     "phpstan/phpstan-symfony": {
         "version": "0.12.1"
     },
+    "phpunit/php-timer": {
+        "version": "3.1.4"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -149,6 +152,15 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "sebastian/finder-facade": {
+        "version": "2.0.0"
+    },
+    "sebastian/phpcpd": {
+        "version": "5.0.2"
+    },
+    "sebastian/version": {
+        "version": "3.0.0"
     },
     "sensio/framework-extra-bundle": {
         "version": "5.2",
@@ -557,6 +569,9 @@
     },
     "symfony/yaml": {
         "version": "v5.0.2"
+    },
+    "theseer/fdomdocument": {
+        "version": "1.6.6"
     },
     "twig/extra-bundle": {
         "version": "v3.0.0"
