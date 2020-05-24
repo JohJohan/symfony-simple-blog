@@ -35,6 +35,9 @@ steps:
 - script: vendor/bin/phpstan analyse
   displayName: 'Run phpstan'
 
+- script: vendor/bin/phpcpd --fuzzy --min-lines=5 --min-tokens=70 src/
+  displayName: 'Run phpcpd'
+
 - script: php bin/console lint:twig templates/
   displayName: 'Run twig lint'
 
