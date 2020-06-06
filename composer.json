@@ -99,8 +99,16 @@
             "npx stylelint \"assets/**/*.scss\""
         ],
         "fix": [
+            "composer fix-code",
+            "composer fix-asset"
+        ],
+        "fix-code": [
             ".\\\\vendor\\\\bin\\\\php-cs-fixer fix --allow-risky=yes",
             ".\\\\vendor\\\\bin\\\\phpcbf.bat"
+        ],
+        "fix-asset": [
+            ".\\\\node_modules\\\\.bin\\\\eslint assets --fix",
+            "npx stylelint \"assets/**/*.scss\" --fix"
         ]
     },
     "conflict": {
