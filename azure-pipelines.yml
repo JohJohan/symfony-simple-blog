@@ -35,7 +35,7 @@ steps:
 - script: vendor/bin/phpstan analyse
   displayName: 'Run phpstan'
 
-- script: ./vendor/bin/psalm -show-info=true
+- script: ./vendor/bin/psalm --show-info=true
   displayName: 'Run psalm'
 
 - script: vendor/bin/phpcpd --fuzzy --min-lines=5 --min-tokens=70 src/
