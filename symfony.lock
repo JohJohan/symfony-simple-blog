@@ -1,9 +1,18 @@
 {
+    "amphp/amp": {
+        "version": "v2.5.0"
+    },
+    "amphp/byte-stream": {
+        "version": "v1.8.0"
+    },
     "composer/semver": {
         "version": "1.5.0"
     },
     "composer/xdebug-handler": {
         "version": "1.4.0"
+    },
+    "dnoegel/php-xdg-base-dir": {
+        "version": "v0.1.1"
     },
     "doctrine/annotations": {
         "version": "1.0",
@@ -87,6 +96,12 @@
     "escapestudios/symfony2-coding-standard": {
         "version": "3.10.0"
     },
+    "felixfbecker/advanced-json-rpc": {
+        "version": "v3.1.1"
+    },
+    "felixfbecker/language-server-protocol": {
+        "version": "v1.5.0"
+    },
     "friendsofphp/php-cs-fixer": {
         "version": "2.2",
         "recipe": {
@@ -105,6 +120,9 @@
     "monolog/monolog": {
         "version": "2.0.2"
     },
+    "netresearch/jsonmapper": {
+        "version": "v2.1.0"
+    },
     "nikic/php-parser": {
         "version": "v4.3.0"
     },
@@ -113,6 +131,9 @@
     },
     "ocramius/proxy-manager": {
         "version": "2.2.3"
+    },
+    "openlss/lib-array2xml": {
+        "version": "1.0.0"
     },
     "php": {
         "version": "7.3"
@@ -138,6 +159,9 @@
     "phpunit/php-timer": {
         "version": "3.1.4"
     },
+    "psalm/plugin-symfony": {
+        "version": "v2.0.0"
+    },
     "psr/cache": {
         "version": "1.0.1"
     },
@@ -152,6 +176,9 @@
     },
     "psr/log": {
         "version": "1.1.2"
+    },
+    "sebastian/diff": {
+        "version": "4.0.4"
     },
     "sebastian/finder-facade": {
         "version": "2.0.0"
@@ -234,6 +261,9 @@
     },
     "symfony/dependency-injection": {
         "version": "v5.0.2"
+    },
+    "symfony/deprecation-contracts": {
+        "version": "v2.2.0"
     },
     "symfony/doctrine-bridge": {
         "version": "v5.0.2"
@@ -579,8 +609,14 @@
     "twig/twig": {
         "version": "v3.0.0"
     },
+    "vimeo/psalm": {
+        "version": "4.1.0"
+    },
     "webmozart/assert": {
         "version": "1.6.0"
+    },
+    "webmozart/path-util": {
+        "version": "2.3.0"
     },
     "zendframework/zend-code": {
         "version": "3.4.1"
