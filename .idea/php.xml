@@ -15,8 +15,6 @@
       <path value="$PROJECT_DIR$/vendor/psr/link" />
       <path value="$PROJECT_DIR$/vendor/symfony/flex" />
       <path value="$PROJECT_DIR$/vendor/squizlabs/php_codesniffer" />
-      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
-      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
       <path value="$PROJECT_DIR$/vendor/twig/twig" />
       <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
@@ -29,11 +27,8 @@
       <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation" />
       <path value="$PROJECT_DIR$/vendor/symfony/validator" />
-      <path value="$PROJECT_DIR$/vendor/ocramius/package-versions" />
       <path value="$PROJECT_DIR$/vendor/php-cs-fixer/diff" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
       <path value="$PROJECT_DIR$/vendor/ocramius/proxy-manager" />
-      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
       <path value="$PROJECT_DIR$/vendor/symfony/security-bundle" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-grapheme" />
       <path value="$PROJECT_DIR$/vendor/symfony/string" />
@@ -54,7 +49,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
       <path value="$PROJECT_DIR$/vendor/symfony/expression-language" />
       <path value="$PROJECT_DIR$/vendor/symfony/inflector" />
-      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
       <path value="$PROJECT_DIR$/vendor/symfony/test-pack" />
       <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
       <path value="$PROJECT_DIR$/vendor/symfony/browser-kit" />
@@ -72,7 +66,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/dependency-injection" />
       <path value="$PROJECT_DIR$/vendor/symfony/twig-bundle" />
       <path value="$PROJECT_DIR$/vendor/psr/cache" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
       <path value="$PROJECT_DIR$/vendor/psr/container" />
       <path value="$PROJECT_DIR$/vendor/symfony/framework-bundle" />
       <path value="$PROJECT_DIR$/vendor/psr/event-dispatcher" />
@@ -83,7 +76,6 @@
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
       <path value="$PROJECT_DIR$/vendor/symfony/routing" />
       <path value="$PROJECT_DIR$/vendor/symfony/serializer-pack" />
-      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
       <path value="$PROJECT_DIR$/vendor/symfony/cache-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/property-info" />
       <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
@@ -130,6 +122,14 @@
       <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
       <path value="$PROJECT_DIR$/vendor/theseer/fdomdocument" />
       <path value="$PROJECT_DIR$/vendor/sebastian/phpcpd" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-guard" />
+      <path value="$PROJECT_DIR$/vendor/symfony/security-csrf" />
+      <path value="$PROJECT_DIR$/vendor/twig/extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bridge" />
+      <path value="$PROJECT_DIR$/vendor/symfony/debug-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/css-selector" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.3" />
