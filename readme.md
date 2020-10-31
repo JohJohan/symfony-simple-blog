@@ -12,6 +12,7 @@ Code checkers (can be run with ```composer test-code```):
 - composer ```composer validate --strict```
 - phpcs ```vendor/bin/phpcs```
 - phpstan ```vendor/bin/phpstan analyse```
+- psalm ```vendor/bin/psalm  --show-info=true```
 - phpcbf ```vendor/bin/phpcpd.bat --fuzzy --min-lines=5 --min-tokens=70 src/```
 - twig lint ```php bin/console lint:twig templates/```
 
