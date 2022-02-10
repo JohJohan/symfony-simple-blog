@@ -11,7 +11,7 @@
         "eslint": "^7.0.0",
         "eslint-config-airbnb-base": "^14.0.0",
         "eslint-plugin-import": "^2.19.1",
-        "node-sass": "^4.13.0",
+        "node-sass": "^7.0.0",
         "sass-loader": "^9.0.1",
         "stylelint": "^13.5.0",
         "stylelint-config-sass-guidelines": "^7.0.0",
