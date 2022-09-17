@@ -4,7 +4,7 @@
     "dependencies": {
         "bootstrap": "^4.6.1",
         "eslint-import-resolver-webpack": "^0.13.2",
-        "jquery": "^3.6.0"
+        "jquery": "^3.6.1"
     },
     "devDependencies": {
         "@symfony/webpack-encore": "^0.31.0",
