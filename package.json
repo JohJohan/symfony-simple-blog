@@ -3,7 +3,7 @@
     "private": true,
     "dependencies": {
         "bootstrap": "^4.6.1",
-        "eslint-import-resolver-webpack": "^0.13.2",
+        "eslint-import-resolver-webpack": "^0.13.3",
         "jquery": "^3.6.0"
     },
     "devDependencies": {
